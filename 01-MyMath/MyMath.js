@@ -19,26 +19,52 @@ export class MyMath {
     }
 
     add(value) {
-
+        let v;
+        v = this.value + value;
+        return v;
     }
 
     subtract(value) {
-
+        let v;
+        v = this.value - value;
+        return v;
     }
 
     multiply(value) {
-
+        let v;
+        v = this.value * value;
+        return v;
     }
 
     divide(value) {
-
+        let v;
+        v = this.value / value;
+        return v;
     }
 
     pow(value) {
-
+        let v;
+        if(value>0 && this.value>0){
+            v = this.value;
+            for(let i = 1; i < value+1; i++){
+                v *= this.value;
+            }
+        }
+        return v;
     }
 
     faculty() {
-
+        
+        if(this.value%1 === 0 && this.value>=0){
+            if(this.value === 0 || this.value === 1){
+                return 1;
+            }else{
+                let v = this.value;
+                for(let i = this.value-1; i > 1; i --){
+                    v *= i;
+                }
+                return v;
+            }
+        }
     }
 }
