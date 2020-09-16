@@ -1,0 +1,114 @@
+
+.controls > *,
+.skin-change > div {
+    background-color: var(--pink);
+    background: llinear-gradient(220deg, var(--bright-pink), var(--dark-pink)),
+    linear-gradient(127deg, var(--pink-glow), var(--bright-pink)); 
+
+    color: var(--dark-pink);
+    text-align: center;
+    font-family: monospace;
+    font-weight: 500;
+
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+    -.5vh 0 .8vh 0 var(--bright-pink) inset;
+    border-radius: 17px;
+}
+
+.d-pad {
+    margin-top: 14vh;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+
+    transform-origin: 90% 40%;
+
+    line-height: 10vh;
+    font-family: 'monospace', Times;
+    font-size: 8vh;
+    color: var(--bright-pink-trans);
+}
+
+.up {
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+        1vh 1vh .5vh .1vh inset var(--bright-pink-trans), 
+        0 0 0 .8vh inset var(--dark-pink-trans);
+}
+
+.right {
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+    1vh -1vh .5vh .1vh inset var(--bright-pink-trans), 
+    0 0 0 .8vh inset var(--dark-pink-trans);
+}
+
+.down {
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+        -1vh -1vh .5vh .1vh inset var(--bright-pink-trans), 
+        0 0 0 .8vh inset var(--dark-pink-trans);
+}
+
+.left {
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+        -1vh 1vh .5vh .1vh inset var(--bright-pink-trans), 
+        0 0 0 .8vh inset var(--dark-pink-trans);
+}
+
+.d-pad:active,
+.d-pad:focus {
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+    0 0 0 .9vh inset  rgb(245, 82, 82);
+    font-size: 9.5vh;
+    color: var(--dark-pink-trans);
+}
+
+.big-button {
+    color: var(--bright-pink-trans);
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+        1vh 1vh .5vh .1vh inset var(--bright-pink-trans), 
+        0 0 0 .8vh inset var(--dark-pink-trans);
+
+    line-height: 7vh;
+    font-size: 2.5vh;
+    border-radius: 50px;
+}
+
+.reset {
+    border-top: 1vh outset var(--pink);
+    border-right: 1vh outset var(--darkest-pink);
+    border-bottom: 1vh outset var(--pink);
+    border-left: 1vh outset var(--bright-pink);
+ 
+    font-size: 1.5vh;
+    color: var(--dark-pink);
+}
+
+.big-button:active {
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+    0 0 0 .9vh inset rgb(245, 82, 82);
+    color: var(--dark-pink-trans);
+    font-size: 2.6vh;
+}
+
+.reset:active {
+    color: var(--dark-pink-trans);
+}
+
+.skin-change > div {
+    width: 4vh;
+    margin-right: 1vh;
+
+    box-shadow: 0 0 .6vh 0 var(--dark-pink),
+    1vh 1vh .5vh .1vh inset var(--bright-pink-trans), 
+    0 0 0 .8vh inset var(--dark-pink-trans);
+
+    text-align: center;
+    font-size: 1.8vh;
+    line-height: 2vh;
+}
+
+.reset:active,
+.skin-change > div:active {
+    border-top: .5vh solid var(--dark-pink);
+    border-right: .5vh solid var(--darkest-pink);
+    border-bottom: .5vh solid var(--dark-pink);
+    border-left: .5vh solid var(--pink);
+}

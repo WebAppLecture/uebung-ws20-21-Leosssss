@@ -1,0 +1,11 @@
+:root {
+    --bright-pink-trans: rgba(253, 168, 215, 0.589);
+    --dark-pink-trans:  rgba(204, 0, 112, 0.589);
+    --darkest-pink: hsl(330, 100%, 12%);
+    --dark-pink: hsl(330, 100%, 22%);
+    --pink: rgb(241, 71, 165);
+    --bright-pink: rgb(253, 168, 215);
+    --pink-glow: rgb(255, 212, 236);
+    --shadow: rgb(58, 10, 32);
+    --white: rgb(255, 242, 246);
+}

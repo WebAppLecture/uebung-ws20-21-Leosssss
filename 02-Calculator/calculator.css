@@ -10,6 +10,7 @@
 
 .numpad button {
     margin: 1px;
+    width: 30px;
 }
 
 .screen {

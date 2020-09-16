@@ -1,0 +1,48 @@
+body {
+    /*background img url: "https://unsplash.com/@meiying?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+    background: no-repeat center/100% url(./meiying-ng-unsplash.jpg);
+}
+
+.gameBox {
+    border-top: .5vh outset var(--pink);
+    border-right: .5vh outset var(--darkest-pink);
+    border-bottom: .5vh outset var(--pink);
+    border-left: .5vh outset var(--bright-pink);
+
+    border-radius: 3.3vh;
+
+    /*background: linear-gradient(to right, var(--bright-pink) -7%, var(--pink) 15%, var(--pink) 35%,var(--bright-pink) 60%,var(--pink) 75%, var(--dark-pink) 95%); 
+*/
+    background: linear-gradient(220deg, var(--bright-pink), var(--dark-pink)),
+            linear-gradient(127deg, var(--pink-glow), var(--bright-pink));
+            box-shadow: 0 0 15vh -5vh rgb(155, 198, 255);
+}
+
+
+.logo, .accent{
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: .15vh .15vh .3vh var(--bright-pink-trans);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+}
+
+.logo{
+    color: var(--dark-pink-trans);
+}
+
+.accent:before {
+    font-size: 5vh;
+    content: "|||||";
+}
+
+.screen {
+    border-top: 1vh inset var(--pink);
+    border-right: 1vh inset var(--darkest-pink);
+    border-bottom: 1vh inset var(--pink);
+    border-left: 1vh inset var(--bright-pink);
+
+    border-radius: 2.8vh;
+}
