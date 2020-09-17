@@ -1,9 +1,10 @@
+
 /**
  * Provides funtionality to reduce framerate from requestAnimationFrame's 60fps.
  * 
  * based on  markE's solution: https://stackoverflow.com/questions/19764018/controlling-fps-with-requestanimationframe
  */
-export class FpsControl {
+export class FpsControl{
 
     set fps(fps) {
         this.fpsIntervall = 1000/fps;
